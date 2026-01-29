@@ -1,0 +1,23 @@
+name: pcic_location_package
+description: A Dart package containing Philippine location data (Provinces, Municipalities, Barangays)
+version: 1.0.0
+repository: https://github.com/yourusername/pcic_location_package  # Change this to your actual repo
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+  test: ^1.25.6
+
+flutter:
+  assets:
+    - lib/src/data/province.json
+    - lib/src/data/municipality.json
+    - lib/src/data/barangay.json
